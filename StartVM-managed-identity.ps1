@@ -13,7 +13,7 @@ $AzureContext = Set-AzContext -SubscriptionName $AzureContext.Subscription -Defa
 Start-AzVM -ResourceGroupName "NAME" -Name "vm-name01"
 Start-AzVM -ResourceGroupName "NAME" -Name "vm-name02"
 
-## Ensure you create two (2) different PowerShell scripts: (1) to turn on (2) to turn off
+## Ensure you create two (2) different Runbooks: (1) to turn on (2) to turn off in your Automation Account blade:
 ## Stop the VM
 #Stop-AzVM -ResourceGroupName "NAME" -Name "vm-name01" -Force
 #Stop-AzVM -ResourceGroupName "NAME" -Name "vm-name02" -Force
